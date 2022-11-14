@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>strona</title>
+    <link rel="stylesheet" href="mycss2.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formularze wstęp</h1>
+        <form>
+            <fieldset>
+                <legend>dane osobowe</legend>
+                <div class="line">
+                    <label for="firstname">imie</label>
+                    <input type="text" name="firstname" id="firstname">
+                </div>
+                <div class="line">
+                    <label for="lastname">nazwisko</label>
+                    <input type="text" name="lastname" id="lastname">
+                </div>
+                <div class="line">
+                    <label for="age">wiek</label>
+                    <input type="number" name="age" id="age" min="13" max="19">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>informacje dodatkowe</legend>
+                <div class="line">
+                    <label for="division">wybierz klasę</label>
+                    <select name="division" id="division">
+                        <option value="default"></option>
+                        <option value="IA">IA</option>
+                        <option value="IB">IB</option>
+                        <option value="IC">IC</option>
+                    </select>
+                </div>
+                <div class="line">
+                    <label for="mydate">data rejestracji</label>
+                    <input type="date" name="mydate" id="mydate">
+                </div>
+                <div class="line">
+                    <label for="mycolor">wybierz kolor</label>
+                    <input type="color" name="mycolor" id="mycolor">
+                </div>
+                <div class="line">
+                    <label for="myfile">wyślij plik</label>
+                    <input type="file" name="myfile" id="myfile">
+                </div>
+                <div class="line">
+                    <label for=""></label>
+                    <input type="button" value="">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
